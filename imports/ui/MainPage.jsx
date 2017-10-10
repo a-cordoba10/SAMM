@@ -33,7 +33,7 @@ class MainPage extends Component {
     }
 
     onEnterSignUp() {
-
+        // Nunca se debería quemar el password de una persona dentro de la aplicación 
         Accounts.createUser({
             username: this.state.userName,
             email: this.state.email,
