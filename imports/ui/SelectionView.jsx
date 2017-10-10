@@ -20,6 +20,7 @@ class SelectionView extends Component {
                 <div className="header"><img src="images/logo.png" alt="Logo SAMM" height="90" width="270"/></div>
                 <div className="button-container-1">
                     <span className="mas">Interact with your saved songs</span>
+                    // Este botón no tiene acción asociada
                     <button id='work' type="button" name="Hover">Saved songs</button>
                 </div>
                 <div className="button-container-3">
