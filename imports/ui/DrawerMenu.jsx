@@ -33,6 +33,7 @@ export default class DrawerMenu extends React.Component {
                         this.props.cerrar()
                     }}
                 >
+                    //La función que guarda la canción no se llama así, por lo que esta nunca se guarda
                     <MenuItem onClick={()=>{this.props.saveSong()}}>Save your song</MenuItem>
                     <MenuItem onClick={()=>{this.logOut()}}>Log out</MenuItem>
                 </Drawer>
